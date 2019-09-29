@@ -1,3 +1,0 @@
-#!/bin/bash
-
-mysqldump -uroot -proot xxoo | ssh -C root@dev.yixinu.com "mysql -uroot -proot xxoo"
